@@ -6,7 +6,7 @@ public class TOCCollector{
 	
 	public static void main(String [] args) throws Exception {
 		
-		// create a DriverLicenseExam object to dereference the main function to start an exam
+		// create a toc object to generate tables of contents
 		TOC toc = new TOC();
 		toc.generate();
 	}
